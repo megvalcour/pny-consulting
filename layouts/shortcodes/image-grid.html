@@ -1,0 +1,7 @@
+<div class="image-grid">
+    {{ with $.Page.Resources.ByType "image" }} 
+        {{ range . }} 
+            <img src="{{ .RelPermalink }}" /> 
+        {{ end }} 
+    {{ end }}
+</div>

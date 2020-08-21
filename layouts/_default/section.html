@@ -1,0 +1,24 @@
+{{ define "main" }}
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <div
+        class="nested-copy-line-height lh-copy f4 nested-links nested-img pr4-l w-two-thirds-l"
+    >
+        <h1 class="f1 fw2 mb0 lh-title">
+            {{ .Title | default .Site.Title }}
+        </h1>
+        {{- .Content -}}
+
+        <div class="mt6 instapaper_ignoref"></div>
+    </div>
+
+    <aside class="w-30-l mt4-l">
+        {{ with .Params.sideimage }}
+        <figure>
+            <img class="mw5 {{ .class | default "br-100" }}" src="{{.source}}"
+            />
+            <figcaption><strong>Above</strong>: {{.caption}}</figcaption>
+        </figure>
+        {{end}}
+    </aside>
+</article>
+{{ end }}

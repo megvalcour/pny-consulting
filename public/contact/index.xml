@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact on PNY Strategic Consulting</title>
+    <link>http://pnyconsulting.com/contact/</link>
+    <description>Recent content in Contact on PNY Strategic Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 May 2020 13:57:11 -0400</lastBuildDate>
+    
+	<atom:link href="http://pnyconsulting.com/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PNY Strategic Consulting&#39;s Calendar</title>
+      <link>http://pnyconsulting.com/contact/appointment/</link>
+      <pubDate>Sun, 24 May 2020 13:57:11 -0400</pubDate>
+      
+      <guid>http://pnyconsulting.com/contact/appointment/</guid>
+      <description>Pamela&amp;rsquo;s calendar is below.
+If you see a date and time where she&amp;rsquo;s free, feel free to mention it when you&amp;rsquo;re setting up an appointment.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

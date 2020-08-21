@@ -1,0 +1,13 @@
+<blockquote {{ with .Get "cite" }} cite="{{.}}" {{ end }} class="testimonial {{ with .Get "even" }} testimonial-right {{ end }}" style="color: #000000">
+    <p>
+        {{ .Get "quote" }}
+    </p>
+    <footer>
+        {{ .Get "name" }} <br />
+        {{ with .Get "occupation"}} {{ . }} <br />
+        {{ end }}
+        <cite>
+            {{ .Get "organization"}}
+        </cite>
+    </footer>
+</blockquote>
